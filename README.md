@@ -19,7 +19,7 @@ from collections import Counter
 ```
 Next, we will write a ***crawl*** function defining the web-crawler, which will fetch the information from the webpage. This function has a ***wordlist*** array to store the fetched contents.
 
-To ping the requested url we create a ***beautifulSoup*** object  with an html parser to return html content then strip all the text content which is embedded in the <div> tags.
+To ping the requested url we create a ***beautifulSoup*** object  with an html parser to return html content then strip all the text content which is embedded in the div tags.
 
 We then convert the text content into lowercase and convert the content into a list with the ***split()*** function. The resulting text is then appended onto our wordlist array.
 ```python
