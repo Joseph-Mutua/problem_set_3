@@ -62,7 +62,7 @@ def clear_symbols(wordlist):
 
     create_dictionary(clean_list)
 ```
- Our third function ***create_dictionary()*** will iterate through the clean_list array and call the Counter module which store all the unique words and their count as ***key:value*** pairs in a dictioanary. 
+ Our third function ***create_dictionary()*** will iterate through the clean_list array and call the Counter module which will store all the unique words and their count as ***key:value*** pairs in a dictioanary. 
 
 The keys are assigned to the words while the value is assigned to the individual word count before finally printing the result to the console.
 ```python
