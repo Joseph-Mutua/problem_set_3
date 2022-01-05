@@ -1,7 +1,6 @@
 # request module to send HTTP/1.1 requests
 # beautifulsoup4 module for parsing HTML/XMLto extract data
-# operator module for operator functions
-# collections module to implement high-performance container datatypes
+# Counter from collections to get elements counts
 
 import requests
 from bs4 import BeautifulSoup
@@ -48,7 +47,7 @@ def clear_symbols(wordlist):
     create_dictionary(clean_list)
 
 
-# Function to create dictionary containing each words count
+# Function to create dictionary containing each unique word's count
 def create_dictionary(clean_list):
     word_count = {}
 
@@ -59,19 +58,20 @@ def create_dictionary(clean_list):
             word_count[word] = 1
 
 
-#  Get the count for each word in the crawled page stored
+# To Get the count for each word in the crawled page stored
 # in the dictionary in key/value pairs
 # Use Counter from collections which converts the elements to
 # keys and values will be the count of the elements
- 
- 
+
     c = Counter(word_count)
- 
+
     # Print the word:count key/value pairs to console
     print(c)
 
+
+
+
 # Driver code
-if __name__ == '__main__':
-    url = "https://www.geeksforgeeks.org/programming-language-choose/"
-    # starts crawling and prints output
-    crawl(url)
+url = "https://pesapal.freshteam.com/jobs"
+# starts crawling and prints output
+crawl(url)
