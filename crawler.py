@@ -58,10 +58,10 @@ def create_dictionary(clean_list):
             word_count[word] = 1
 
 
-# To Get the count for each word in the crawled page stored
-# in the dictionary in key/value pairs
-# Use Counter from collections which converts the elements to
-# keys and values will be the count of the elements
+    # To Get the count for each word in the crawled page stored
+    # in the dictionary in key/value pairs
+    # Use Counter from collections which converts the elements to
+    # keys and values will be the count of the elements
 
     c = Counter(word_count)
 
