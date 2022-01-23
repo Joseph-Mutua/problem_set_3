@@ -102,7 +102,7 @@ For this example I used the [pesapal homepage](https://www.pesapal.com/).
 # Driver code
 url="https://www.pesapal.com/"
 ```
-Next, jump back into your terminal, navigate to the application folder and run the pragram. That's it! 
+Next, jump back into your terminal, navigate to the application folder and run the program. That's it! 
 ```
 ~/problem_set_3$ python3 crawler.py
 'nfc': 4, 'modes': 4, 'fitbit': 4, 'google': 4, 'integrate': 4, 'systems': 4, 'oracle': 4, 'micros': 4, 'compulynx': 4, 'microsoft': 4, 'amx': 4, 'connect': 4, 'during': 4, 'pickup': 4, 'upon': 4, 'delivery': 4,...
